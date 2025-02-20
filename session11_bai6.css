@@ -1,0 +1,144 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    background-color: grey;
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+input{
+    width: 70%;
+}
+.search .fa-solid{
+    border: 1px solid gray;
+    margin-left: auto;
+}
+header{
+    background-color: aquamarine;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.no5 {
+    width: 100%;
+    height: 200px;
+    background-color: #ebedf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.no4 {
+    width: 100%;
+    height: 150px;
+    background-color: #d7e9fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+/* .no1 {
+    width: 34%;
+    height: 300px;
+    display: flex;
+    background-color: #f5cf8d;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.no2 {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    background-color: #c8c6fa;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+}
+
+.no3 {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    background-color: #f09a9d;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+} */
+ .no1, .no2, .no3{
+    width:32%;
+    height: 300px;
+    display: flex;
+    background-color: #f09a9d;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold';
+ }
+@media screen and (max-width:1200px) {
+    .row2{
+       display: flex;
+       flex-wrap: wrap-reverse;
+    }
+    .no5{
+        order: 5;
+    }
+    .no4 {
+        width: 50%;
+        height: 300px;
+        order: 3;
+    }
+    .no1 {
+        width: 50%;  
+        order: 4;
+    }
+    
+    .no2 {
+        width: 50%;
+        order: 2;
+    }
+    
+    .no3 {
+        width: 50%;
+        order: 1;
+    }
+}
+@media screen and (max-width:768px) {
+    .row2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .no5{
+        order: 5;
+    }
+    .no4 {
+        width: 100%;
+        height: 300px;
+        order: 4;
+    }
+    .no1 {
+        width: 100%;  
+        order: 3;
+    }
+    
+    .no2 {
+        width: 100%;
+        order: 1;
+    }
+    
+    .no3 {
+        width: 100%;
+        order: 2;
+    }
+}
